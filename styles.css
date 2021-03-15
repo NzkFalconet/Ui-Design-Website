@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+header{
+    background-image: url("https://wallpaperaccess.com/full/223972.png");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.logo{
+    float: left;
+    font-size:1.5rem;
+    margin-top: 40px;
+    margin-left: 120px;
+    letter-spacing: 1px;
+}
+ul{
+    float: right;
+    margin-top: 40px;
+}
+ul li{
+    display: inline-block;
+    list-style-type:  none;
+    padding: 2px 5px;
+
+}
+ul li a{
+    text-decoration:none;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 80%;
+}
+
+ul li a:hover{
+    color: red;
+    transition: 0.3s;
+    padding-bottom:5px;
+    border-bottom: 1px solid red;
+}
+
+.active{
+    color: red;
+}
+
+
+.contact{
+    float: right;
+}
+
+hr{
+    position: absolute;
+    top: 13%;
+    width: 100%;
+    
+   
+}
+
+h1{
+    font-family: 'Abril Fatface', serif;
+    position: absolute;
+    top: 45%;
+    left:40%;
+    font-size: 5rem;
+    letter-spacing: 51px;
+    transform: translate(-50%,-50%);
+}
+
+
+span{
+    font-family: 'Abril Fatface', serif;
+    font-size: 5rem;
+    letter-spacing: 51px;
+    transform: translate(-50%,-50%);
+    color: #6f4a8e;
+}
